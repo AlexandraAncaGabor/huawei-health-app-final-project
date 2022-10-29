@@ -1,4 +1,4 @@
-A number of 34 test cases were created in different areas of the app. The areas covered were: Device, Me, Health, Security.
+A number of 34 test cases were created in different areas of the app. The areas covered were: Device, Me, Health, Security, Install/Unistall the app and Internationalization.
 
 Device area
 HHA-T4 - Check  if the app shows sleep details when the "Huawei TruSleep" function is disabled;
