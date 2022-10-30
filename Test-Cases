@@ -1,7 +1,7 @@
 A number of 34 test cases were created in different areas of the app. The areas covered were: Device, Me, Health, Security, Install/Unistall the app and Internationalization.
 
 Device area
-![HHA-T4] (C:\Users\LAC\OneDrive\Desktop\GIT\Screenschots Test cases- zephyr\Device area)  - Check  if the app shows sleep details when the "Huawei TruSleep" function is disabled;
+HHA-T4 - Check  if the app shows sleep details when the "Huawei TruSleep" function is disabled;
 HHA-T5 - Test if a user receives a notification when disabling and then activating a notification;
 HHA-T6 - Check if the app is able to set up more than 5 alarms;
 HHA-T22 - Check that a watch face can be installed;
