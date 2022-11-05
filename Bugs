@@ -1,8 +1,0 @@
-Bug 1: Multiple alarms set up at the same time (same hour and date);
-Bug 2: Security number cannot be set up using the pre-added number in the "Profile" area;
-Bug 3: Heart button from watch faces doesn't work; 
-Bug 4: The app displays weekly steps from a previously connected device. (Huawei GT2);
-Bug 5: Profile photo can't be deleted; 
-Bug 6: All format photos are supported by the app;
-Bug 7: The app doesn't display correctly the steps from the second device added to the app;
-Bug. 8 The app doesn't display correctly the steps from the first device after the second device is deleted.
