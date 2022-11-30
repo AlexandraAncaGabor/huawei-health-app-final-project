@@ -4,6 +4,10 @@ My final project was based on testing the Huawei Health app which is a free Andr
 
 ![Huawei-health-kv](https://user-images.githubusercontent.com/110250127/204929801-986c8fa1-bee6-4ae2-9a02-4ae61612ccb8.jpg)
 
+## **Test plan**
+
+The testing proceess was described in the [test plan](https://github.com/AlexandraAncaGabor/QA-Project-Huawei-Health/blob/feature/refactoring/test-plan.md)
+
 ## **Test cases**
 
 I created 34 test cases covering different parts of the mobile application: Health, Device, Me.
@@ -77,6 +81,8 @@ The test cases were done using an Android mobile, v 11 (Samsung Galaxy A70) and 
 
 [TC-34](https://github.com/AlexandraAncaGabor/QA-Project-Huawei-Health/blob/feature/refactoring/test-cases/tc-034.md) Internationalization testing
 
+## **Bug reports**
+
 3 Bugs were detected during the exploratory session and the test case execution generated 5 bugs.
 
 |     | \*\*                                                                                                               | **Bug description**                                                                                    |
@@ -90,13 +96,15 @@ The test cases were done using an Android mobile, v 11 (Samsung Galaxy A70) and 
 |   7 | [Bug-007](https://github.com/AlexandraAncaGabor/QA-Project-Huawei-Health/blob/feature/refactoring/bugs/bug-007.md) | Profile picture cannot be deleted                                                                      |
 |   8 | [Bug-008](https://github.com/AlexandraAncaGabor/QA-Project-Huawei-Health/blob/feature/refactoring/bugs/bug-008.md) | Climbing is not automatically detected by the app                                                      |
 
-The tools used for this project are listed below:
+## **Tools used**
 
 |     | \*\*               | **Tools used**                                                                                                                     |
 | --: | ------------------ | ---------------------------------------------------------------------------------------------------------------------------------- |
 |   1 | Project Management | [Jira](https://jira.atlassian.com/)                                                                                                |
 |   2 | Test case creation | [Zephyr for Jira](https://marketplace.atlassian.com/apps/1213259/zephyr-scale-test-management-for-jira?tab=overview&hosting=cloud) |
 |   3 | Bug tracking       | [Jira](https://jira.atlassian.com/)                                                                                                |
+
+## **Test metrics**
 
 The test metrics are shown in the table below:
 
