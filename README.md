@@ -82,7 +82,7 @@ The test cases were done using an Android mobile, v 11 (Samsung Galaxy A70) and 
 [TC-34](https://github.com/AlexandraAncaGabor/QA-Project-Huawei-Health/blob/feature/refactoring/test-cases/tc-034.md) Internationalization testing
 
 ## **Bug reports**
-
+	:lady_beetle:
 3 Bugs were detected during the exploratory session and the test case execution generated 5 bugs.
 
 |     | \*\*                                                                                                               | **Bug description**                                                                                    |
