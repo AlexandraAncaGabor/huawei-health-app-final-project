@@ -8,6 +8,7 @@ I created 34 test cases covering different parts of the mobile application: Heal
 The test cases were done using an Android mobile, v 11 (Samsung Galaxy A70) and a huawei watch fit.
 
 [TC-001](https://github.com/AlexandraAncaGabor/QA-Project-Huawei-Health/blob/feature/refactoring/test-cases/tc-001.md) - Check if the app shows sleep details when the "Huawei TruSleep" function is disabled
+
 [TC-002](https://github.com/AlexandraAncaGabor/QA-Project-Huawei-Health/blob/feature/refactoring/test-cases/tc-002.md) Test if a user receives a notification when disabling and then activating a notification
 [TC-003](https://github.com/AlexandraAncaGabor/QA-Project-Huawei-Health/blob/feature/refactoring/test-cases/tc-003.md) Check if the app is able to set up more than 5 alarms
 [TC-004](https://github.com/AlexandraAncaGabor/QA-Project-Huawei-Health/blob/feature/refactoring/test-cases/tc-004.md) Check that a watch face can be installed
