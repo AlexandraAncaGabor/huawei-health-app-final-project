@@ -67,17 +67,17 @@
 
 Testing task Start date End date Notes
 
-- Exploratory testing 10.04.2022 10.04.2022
-- Test case creation for “Device” area 12.04.2022 12.04.2022
-- Test case creation for “Me” area 16.04.2022 16.04.2022
-- Test case creation for “Health” area 17.04.2022 17.04.2022
-- Test case execution for “Device” area 20.04.2022 20.04.2022
-- Test case execution for “Me” area 25.04.2022 25.04.2022
-- Test case execution for “Health” area 25.04.2022 25.04.2022
-- Test case execution for “Device” area 25.04.2022 25.04.2022
-- Bug reporting 26.04.2022 26.04.2022
-- Regression testing 27.04.2022 27.04.2022
-- Research for security tool 19.04.2022 19.04.2022
+- Exploratory testing between 10.04.2022 and 10.04.2022
+- Test case creation for “Device” area between 12.04.2022 and 12.04.2022
+- Test case creation for “Me” area between 16.04.2022 and 16.04.2022
+- Test case creation for “Health” area between 17.04.2022 and 17.04.2022
+- Test case execution for “Device” area between 20.04.2022 and 20.04.2022
+- Test case execution for “Me” area between 25.04.2022 and 25.04.2022
+- Test case execution for “Health” area between  25.04.2022 and 25.04.2022
+- Test case execution for “Device” area between 25.04.2022 and 25.04.2022
+- Bug reporting between 26.04.2022 and 26.04.2022
+- Regression testing between 27.04.2022 and 27.04.2022
+- Research for security tool between 19.04.2022 and 19.04.2022
 
 ## 11. RISKS AND MITIGATIONS
 
