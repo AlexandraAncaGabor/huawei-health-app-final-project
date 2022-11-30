@@ -34,7 +34,7 @@
 
     Integration with Black List application
 
-5.  APPROACH (STRATEGY)  
+## 5.  APPROACH (STRATEGY)  
     We will perform manual testing for the decided functionalities.
     We will perform functional testing in the first place.
     We will perform security testing.
