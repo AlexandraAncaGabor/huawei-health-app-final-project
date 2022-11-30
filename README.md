@@ -1,9 +1,8 @@
 # **QA-Project-Huawei-Health App**
 
-![Huawei-health-kv](https://user-images.githubusercontent.com/110250127/204929801-986c8fa1-bee6-4ae2-9a02-4ae61612ccb8.jpg)
-
-
 My final project was based on testing the Huawei Health app which is a free Android companion application that syncs to a Huawei smartwatch to track various tasks.
+
+![Huawei-health-kv](https://user-images.githubusercontent.com/110250127/204929801-986c8fa1-bee6-4ae2-9a02-4ae61612ccb8.jpg)
 
 ## **Test cases**
 
