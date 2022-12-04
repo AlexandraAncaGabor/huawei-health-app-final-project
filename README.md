@@ -50,20 +50,18 @@ The test cases were done using an Android mobile, v 11 (Samsung Galaxy A70) and 
 
 ## **Test execution**
 
-|     | **Test cases**                           | **Test resultss** |                                                         
-| ------------------------------------- | --------- | 
-| tc-001 | :heavy_check_mark: Pass     | 
-| tc-002 | 3:heavy_check_mark: Pass    | 
-| tc-003 | :heavy_check_mark: Pass     |                                                                             
-| tc-004 | :heavy_check_mark: Pass     | 
-| tc-005 | :heavy_check_mark: Pass     | 
-| tc-006 | :heavy_check_mark: Pass     | 
-| tc-007 | :heavy_check_mark: Pass     | 
-| tc-008 | :x: Fail                    | 
-| tc-009 | :heavy_check_mark: Pass     | 
-| tc-010 | :heavy_check_mark: Pass     | 
-| NonfunctionalTC /total TC             | 4/34      | 
-| NonfunctionalTC /total TC             | 4/34      | 
+\begin{table}[]
+\begin{tabular}{llr}
+\hline
+\multicolumn{2}{c}{Item} &            \\ \cline{1-2}
+Animal     & Description & Price (\$) \\ \hline
+Gnat       & per gram    & 13.65      \\
+           & each        & 0.01       \\
+Gnu        & stuffed     & 92.50      \\
+Emu        & stuffed     & 33.33      \\
+Armadillo  & frozen      & 8.99       \\ \hline
+\end{tabular}
+\end{table}
 
 ## **Bug reports**
 
