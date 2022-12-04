@@ -50,6 +50,7 @@ The test cases were done using an Android mobile, v 11 (Samsung Galaxy A70) and 
 
 ## **Test execution**
 
+<<<<<<< HEAD
 +----------------+-------------------------+----------------+-------------------------+----------------+-------------------------+----------------+----------------------------+
 | | | | | | | | |
 | **Test cases** | **Test results** | **Test cases** | **Test results** | **Test cases** | **Test results** | **Test cases** | **Test results** |
@@ -84,6 +85,19 @@ The test cases were done using an Android mobile, v 11 (Samsung Galaxy A70) and 
 | | | | | | | | |
 | tc-010 | :heavy_check_mark: Pass | tc-020 | :heavy_check_mark: Pass | tc-030 | :heavy_check_mark: Pass | | |
 +----------------+-------------------------+----------------+-------------------------+----------------+-------------------------+----------------+----------------------------+
+=======
+**Test cases** & **Test results**          & \textbf{**Test cases**} & \textbf{**Test results**} & \textbf{**Test cases**} & \textbf{**Test results**} & \textbf{**Test cases**} & \textbf{**Test results**} \\ \hline
+tc-001         & :heavy\_check\_mark: Pass & tc-011                  & :x: Fail                  & tc-021                  & :heavy\_check\_mark: Pass & tc-031                  & :heavy\_check\_mark: Pass \\ \hline
+tc-002         & :heavy\_check\_mark: Pass & tc-012                  & :x: Fail                  & tc-022                  & :heavy\_check\_mark: Pass & tc-032                  & :heavy\_check\_mark: Pass \\ \hline
+tc-003         & :heavy\_check\_mark: Pass & tc-013                  & :x: Fail                  & tc-023                  & :heavy\_check\_mark: Pass & tc-033                  & :heavy\_check\_mark: Pass \\ \hline
+tc-004         & :heavy\_check\_mark: Pass & tc-014                  & :heavy\_check\_mark: Pass & tc-024                  & :x: Fail                  & tc-034                  & :heavy\_check\_mark: Pass \\ \hline
+tc-005         & :heavy\_check\_mark: Pass & tc-015                  & :heavy\_check\_mark: Pass & tc-025                  & :heavy\_check\_mark: Pass &                         &                           \\ \hline
+tc-006         & :heavy\_check\_mark: Pass & tc-016                  & :heavy\_check\_mark: Pass & tc-026                  & :heavy\_check\_mark: Pass &                         &                           \\ \hline
+tc-007         & :heavy\_check\_mark: Pass & tc-017                  & :heavy\_check\_mark:      & tc-027                  & :heavy\_check\_mark: Pass &                         &                           \\ \hline
+tc-008         & :x: Fail                  & tc-018                  & :heavy\_check\_mark: Pass & tc-028                  & :heavy\_check\_mark: Pass &                         &                           \\ \hline
+tc-009         & :heavy\_check\_mark: Pass & tc-019                  & :heavy\_check\_mark: Pass & tc-029                  & :heavy\_check\_mark: Pass &                         &                           \\ \hline
+tc-010         & :heavy\_check\_mark: Pass & tc-020                  & :heavy\_check\_mark: Pass & tc-030                  & :heavy\_check\_mark: Pass &                         &      
+>>>>>>> 564a9ad5a1b478ea21e7d64e6edef1857831ea38
 
 ## **Bug reports**
 
