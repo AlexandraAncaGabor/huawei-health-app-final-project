@@ -59,6 +59,7 @@ The test cases were done using an Android mobile, v 11 (Samsung Galaxy A70) and 
 | | |
 +------------+-------------------------+
 | | |
++------------+-------------------------+
 
 ## **Bug reports**
 
