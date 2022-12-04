@@ -51,11 +51,19 @@ The test cases were done using an Android mobile, v 11 (Samsung Galaxy A70) and 
 ## **Test execution**
 
 |     | **Test cases**                           | **Test resultss** |                                                         
-| --: | ------------------------------------- | --------- | 
-|   1 | tc-001 | :heavy_check_mark: Pass     | 
-|   2 | TC created/ TC executed               | 34/34     | 
-|   3 | TC failed                             | 5         |                                                                             
-|   4 | NonfunctionalTC /total TC             | 4/34      | 
+| ------------------------------------- | --------- | 
+| tc-001 | :heavy_check_mark: Pass     | 
+| tc-002 | 3:heavy_check_mark: Pass    | 
+| tc-003 | :heavy_check_mark: Pass     |                                                                             
+| tc-004 | :heavy_check_mark: Pass     | 
+| tc-005 | :heavy_check_mark: Pass     | 
+| tc-006 | :heavy_check_mark: Pass     | 
+| tc-007 | :heavy_check_mark: Pass     | 
+| tc-008 | :x: Fail                    | 
+| tc-009 | :heavy_check_mark: Pass     | 
+| tc-010 | :heavy_check_mark: Pass     | 
+| NonfunctionalTC /total TC             | 4/34      | 
+| NonfunctionalTC /total TC             | 4/34      | 
 
 ## **Bug reports**
 
