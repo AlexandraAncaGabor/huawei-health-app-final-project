@@ -51,19 +51,19 @@ The test cases were done using an Android mobile, v 11 (Samsung Galaxy A70) and 
 ## **Test execution**
 
 \begin{table}[]
-\begin{tabular}{|l|l|l|l|l|l|l|l|l|l|l|}
-\cline{1-2} \cline{4-5} \cline{7-8} \cline{10-11}
-**Test cases** & **Test results** & & \textbf{**Test cases**} & \textbf{**Test results**} & & \textbf{**Test cases**} & \textbf{**Test results**} & & \textbf{**Test cases**} & \textbf{**Test results**} \\ \cline{1-2} \cline{4-5} \cline{7-8} \cline{10-11}
-tc-001 & :heavy_check_mark: Pass & & tc-011 & :x: Fail & & tc-021 & :heavy_check_mark: Pass & & tc-031 & :heavy_check_mark: Pass \\ \cline{1-2} \cline{4-5} \cline{7-8} \cline{10-11}
-tc-002 & :heavy_check_mark: Pass & & tc-012 & :x: Fail & & tc-022 & :heavy_check_mark: Pass & & tc-032 & :heavy_check_mark: Pass \\ \cline{1-2} \cline{4-5} \cline{7-8} \cline{10-11}
-tc-003 & :heavy_check_mark: Pass & & tc-013 & :x: Fail & & tc-023 & :heavy_check_mark: Pass & & tc-033 & :heavy_check_mark: Pass \\ \cline{1-2} \cline{4-5} \cline{7-8} \cline{10-11}
-tc-004 & :heavy_check_mark: Pass & & tc-014 & :heavy_check_mark: Pass & & tc-024 & :x: Fail & & tc-034 & :heavy_check_mark: Pass \\ \cline{1-2} \cline{4-5} \cline{7-8} \cline{10-11}
-tc-005 & :heavy_check_mark: Pass & & tc-015 & :heavy_check_mark: Pass & & tc-025 & :heavy_check_mark: Pass & & & \\ \cline{1-2} \cline{4-5} \cline{7-8} \cline{10-11}
-tc-006 & :heavy_check_mark: Pass & & tc-016 & :heavy_check_mark: Pass & & tc-026 & :heavy_check_mark: Pass & & & \\ \cline{1-2} \cline{4-5} \cline{7-8} \cline{10-11}
-tc-007 & :heavy_check_mark: Pass & & tc-017 & :heavy_check_mark: & & tc-027 & :heavy_check_mark: Pass & & & \\ \cline{1-2} \cline{4-5} \cline{7-8} \cline{10-11}
-tc-008 & :x: Fail & & tc-018 & :heavy_check_mark: Pass & & tc-028 & :heavy_check_mark: Pass & & & \\ \cline{1-2} \cline{4-5} \cline{7-8} \cline{10-11}
-tc-009 & :heavy_check_mark: Pass & & tc-019 & :heavy_check_mark: Pass & & tc-029 & :heavy_check_mark: Pass & & & \\ \cline{1-2} \cline{4-5} \cline{7-8} \cline{10-11}
-tc-010 & :heavy_check_mark: Pass & & tc-020 & :heavy_check_mark: Pass & & tc-030 & :heavy_check_mark: Pass & & & \\ \cline{1-2} \cline{4-5} \cline{7-8} \cline{10-11}
+\begin{tabular}{|l|l|l|l|l|l|l|l|}
+\hline
+**Test cases** & **Test results** & \textbf{**Test cases**} & \textbf{**Test results**} & \textbf{**Test cases**} & \textbf{**Test results**} & \textbf{**Test cases**} & \textbf{**Test results**} \\ \hline
+tc-001 & :heavy_check_mark: Pass & tc-011 & :x: Fail & tc-021 & :heavy_check_mark: Pass & tc-031 & :heavy_check_mark: Pass \\ \hline
+tc-002 & :heavy_check_mark: Pass & tc-012 & :x: Fail & tc-022 & :heavy_check_mark: Pass & tc-032 & :heavy_check_mark: Pass \\ \hline
+tc-003 & :heavy_check_mark: Pass & tc-013 & :x: Fail & tc-023 & :heavy_check_mark: Pass & tc-033 & :heavy_check_mark: Pass \\ \hline
+tc-004 & :heavy_check_mark: Pass & tc-014 & :heavy_check_mark: Pass & tc-024 & :x: Fail & tc-034 & :heavy_check_mark: Pass \\ \hline
+tc-005 & :heavy_check_mark: Pass & tc-015 & :heavy_check_mark: Pass & tc-025 & :heavy_check_mark: Pass & & \\ \hline
+tc-006 & :heavy_check_mark: Pass & tc-016 & :heavy_check_mark: Pass & tc-026 & :heavy_check_mark: Pass & & \\ \hline
+tc-007 & :heavy_check_mark: Pass & tc-017 & :heavy_check_mark: & tc-027 & :heavy_check_mark: Pass & & \\ \hline
+tc-008 & :x: Fail & tc-018 & :heavy_check_mark: Pass & tc-028 & :heavy_check_mark: Pass & & \\ \hline
+tc-009 & :heavy_check_mark: Pass & tc-019 & :heavy_check_mark: Pass & tc-029 & :heavy_check_mark: Pass & & \\ \hline
+tc-010 & :heavy_check_mark: Pass & tc-020 & :heavy_check_mark: Pass & tc-030 & :heavy_check_mark: Pass & & \\ \hline
 \end{tabular}
 \end{table}
 
