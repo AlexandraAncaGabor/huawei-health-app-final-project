@@ -6,7 +6,7 @@ My final project was based on testing the Huawei Health app which is a free Andr
 
 ## **Test plan**
 
-The testing proceess was described in the [test plan](https://github.com/AlexandraAncaGabor/QA-Project-Huawei-Health/blob/feature/refactoring/test-plan.md)
+How the project will be performed was described in the [test plan.](https://github.com/AlexandraAncaGabor/QA-Project-Huawei-Health/blob/feature/refactoring/test-plan.md)
 
 ## **Test cases**
 
@@ -113,4 +113,10 @@ The test metrics are shown in the table below:
 |   1 | Defects found with TCS/ Total Defects | 5/8       | 3 defects were found in the exploratory session.                            |
 |   2 | TC created/ TC executed               | 34/34     | All TCs were executed according to the plan                                 |
 |   3 | TC failed                             | 5         |                                                                             |
-|   4 | nonfunctionalTC /total TC             | 4/34      | Functional testing was prioritary, but nonfonfunctional TCs can be created. |
+|   4 | NonfunctionalTC /total TC             | 4/34      | Functional testing was prioritary, but nonfonfunctional TCs can be created. |
+
+Nonfunctional testing used:
+
+- Security testing;
+- Installation/Uninstallation;
+- Internationalization testing,
