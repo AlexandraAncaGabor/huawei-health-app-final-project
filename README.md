@@ -50,32 +50,12 @@ The test cases were done using an Android mobile, v 11 (Samsung Galaxy A70) and 
 
 ## **Test execution**
 
-% Please add the following required packages to your document preamble:
-% \usepackage{multirow}
+% \usepackage{booktabs}
 \begin{table}[]
-\begin{tabular}{llllllll}
-\multirow{2}{_}{\textbf{**Test cases**}} & \multirow{2}{_}{\textbf{**Test results**}} & \multirow{2}{_}{\textbf{**Test cases**}} & \multirow{2}{_}{\textbf{**Test results**}} & \multirow{2}{_}{\textbf{**Test cases**}} & \multirow{2}{_}{\textbf{**Test results**}} & \multirow{2}{_}{\textbf{**Test cases**}} & \multirow{2}{_}{\textbf{**Test results**}} \\
-& & & & & & & \\
-\multirow{2}{_}{tc-001} & \multirow{2}{_}{:heavy_check_mark: Pass} & \multirow{2}{_}{tc-011} & \multirow{2}{_}{:x: Fail} & \multirow{2}{_}{tc-021} & \multirow{2}{_}{:heavy_check_mark: Pass} & \multirow{2}{_}{tc-031} & \multirow{2}{_}{:heavy_check_mark: Pass} \\
-& & & & & & & \\
-\multirow{2}{_}{tc-002} & \multirow{2}{_}{:heavy_check_mark: Pass} & \multirow{2}{_}{tc-012} & \multirow{2}{_}{:x: Fail} & \multirow{2}{_}{tc-022} & \multirow{2}{_}{:heavy_check_mark: Pass} & \multirow{2}{_}{tc-032} & \multirow{2}{_}{:heavy_check_mark: Pass} \\
-& & & & & & & \\
-\multirow{2}{_}{tc-003} & \multirow{2}{_}{:heavy_check_mark: Pass} & \multirow{2}{_}{tc-013} & \multirow{2}{_}{:x: Fail} & \multirow{2}{_}{tc-023} & \multirow{2}{_}{:heavy_check_mark: Pass} & \multirow{2}{_}{tc-033} & \multirow{2}{_}{:heavy_check_mark: Pass} \\
-& & & & & & & \\
-\multirow{2}{_}{tc-004} & \multirow{2}{_}{:heavy_check_mark: Pass} & \multirow{2}{_}{tc-014} & \multirow{2}{_}{:heavy_check_mark: Pass} & \multirow{2}{_}{tc-024} & \multirow{2}{_}{:x: Fail} & \multirow{2}{_}{tc-034} & \multirow{2}{_}{:heavy_check_mark: Pass} \\
-& & & & & & & \\
-\multirow{2}{_}{tc-005} & \multirow{2}{_}{:heavy_check_mark: Pass} & \multirow{2}{_}{tc-015} & \multirow{2}{_}{:heavy_check_mark: Pass} & \multirow{2}{_}{tc-025} & \multirow{2}{_}{:heavy_check_mark: Pass} & \multirow{2}{_}{} & \multirow{2}{_}{} \\
-& & & & & & & \\
-\multirow{2}{_}{tc-006} & \multirow{2}{_}{:heavy_check_mark: Pass} & \multirow{2}{_}{tc-016} & \multirow{2}{_}{:heavy_check_mark: Pass} & \multirow{2}{_}{tc-026} & \multirow{2}{_}{:heavy_check_mark: Pass} & \multirow{2}{_}{} & \multirow{2}{_}{} \\
-& & & & & & & \\
-\multirow{2}{_}{tc-007} & \multirow{2}{_}{:heavy_check_mark: Pass} & \multirow{2}{_}{tc-017} & \multirow{2}{_}{:heavy_check_mark:} & \multirow{2}{_}{tc-027} & \multirow{2}{_}{:heavy_check_mark: Pass} & \multirow{2}{_}{} & \multirow{2}{_}{} \\
-& & & & & & & \\
-\multirow{2}{_}{tc-008} & \multirow{2}{_}{:x: Fail} & \multirow{2}{_}{tc-018} & \multirow{2}{_}{:heavy_check_mark: Pass} & \multirow{2}{_}{tc-028} & \multirow{2}{_}{:heavy_check_mark: Pass} & \multirow{2}{_}{} & \multirow{2}{_}{} \\
-& & & & & & & \\
-\multirow{2}{_}{tc-009} & \multirow{2}{_}{:heavy_check_mark: Pass} & \multirow{2}{_}{tc-019} & \multirow{2}{_}{:heavy_check_mark: Pass} & \multirow{2}{_}{tc-029} & \multirow{2}{_}{:heavy_check_mark: Pass} & \multirow{2}{_}{} & \multirow{2}{_}{} \\
-& & & & & & & \\
-\multirow{2}{_}{tc-010} & \multirow{2}{_}{:heavy_check_mark: Pass} & \multirow{2}{_}{tc-020} & \multirow{2}{_}{:heavy_check_mark: Pass} & \multirow{2}{_}{tc-030} & \multirow{2}{_}{:heavy_check_mark: Pass} & \multirow{2}{_}{} & \multirow{2}{_}{} \\
-& & & & & & &  
+\begin{tabular}{@{}lll@{}}
+m & nm & ,m \\
+  &    &    \\
+  &    &   
 \end{tabular}
 \end{table}
 
