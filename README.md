@@ -6,7 +6,7 @@ My final project was based on testing the Huawei Health app which is a free Andr
 
 ## **Test plan**
 
-How the project will be performed was described in the [test plan.](https://github.com/AlexandraAncaGabor/QA-Project-Huawei-Health/blob/feature/refactoring/test-plan.md)
+How the testing process was performed was described in the [test plan.](https://github.com/AlexandraAncaGabor/QA-Project-Huawei-Health/blob/feature/refactoring/test-plan.md)
 
 ## **Test cases**
 
