@@ -50,10 +50,18 @@ The test cases were done using an Android mobile, v 11 (Samsung Galaxy A70) and 
 
 ## **Test execution**
 
-| m | nm | ,m |
-|---|----|----|
-|   |    |    |
-|   |    |    |
+| **Test   cases** | **Test results**          | **Test cases** | **Test results**          | **Test cases** | **Test results**          | **Test cases** | **Test results**          |
+|------------------|---------------------------|----------------|---------------------------|----------------|---------------------------|----------------|---------------------------|
+| tc-001           | :heavy_check_mark:   Pass | tc-011         | :x:   Fail                | tc-021         | :heavy_check_mark:   Pass | tc-031         | :heavy_check_mark:   Pass |
+| tc-002           | :heavy_check_mark:   Pass | tc-012         | :x:   Fail                | tc-022         | :heavy_check_mark:   Pass | tc-032         | :heavy_check_mark:   Pass |
+| tc-003           | :heavy_check_mark:   Pass | tc-013         | :x:   Fail                | tc-023         | :heavy_check_mark:   Pass | tc-033         | :heavy_check_mark:   Pass |
+| tc-004           | :heavy_check_mark:   Pass | tc-014         | :heavy_check_mark:   Pass | tc-024         | :x:   Fail                | tc-034         | :heavy_check_mark:   Pass |
+| tc-005           | :heavy_check_mark:   Pass | tc-015         | :heavy_check_mark:   Pass | tc-025         | :heavy_check_mark:   Pass |                |                           |
+| tc-006           | :heavy_check_mark:   Pass | tc-016         | :heavy_check_mark:   Pass | tc-026         | :heavy_check_mark:   Pass |                |                           |
+| tc-007           | :heavy_check_mark:   Pass | tc-017         | :heavy_check_mark:        | tc-027         | :heavy_check_mark:   Pass |                |                           |
+| tc-008           | :x:   Fail                | tc-018         | :heavy_check_mark:   Pass | tc-028         | :heavy_check_mark:   Pass |                |                           |
+| tc-009           | :heavy_check_mark:   Pass | tc-019         | :heavy_check_mark:   Pass | tc-029         | :heavy_check_mark:   Pass |                |                           |
+| tc-010           | :heavy_check_mark:   Pass | tc-020         | :heavy_check_mark:   Pass | tc-030         | :heavy_check_mark:   Pass |                |                           |
 
 ## **Bug reports**
 
