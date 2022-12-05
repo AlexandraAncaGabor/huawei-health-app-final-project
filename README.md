@@ -92,7 +92,7 @@ The test metrics are shown in the table below:
 | --: | ------------------------------------- | --------- | --------------------------------------------------------------------------- |
 |   1 | Defects found with TCS/ Total Defects | 5/8       | 3 defects were found in the exploratory session.                            |
 |   2 | TC created/ TC executed               | 34/34     | All TCs were executed according to the plan                                 |
-|   3 | TC failed                             | 5         |                                                                             |
+|   3 | TC failed                             | 5         | Small part of the modules contain most of the defects                       |
 |   4 | NonfunctionalTC /total TC             | 4/34      | Functional testing was prioritary, but nonfonfunctional TCs can be created. |
 
 Nonfunctional testing used:
