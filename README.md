@@ -50,14 +50,10 @@ The test cases were done using an Android mobile, v 11 (Samsung Galaxy A70) and 
 
 ## **Test execution**
 
-% \usepackage{booktabs}
-\begin{table}[]
-\begin{tabular}{@{}lll@{}}
-m & nm & ,m \\
-  &    &    \\
-  &    &   
-\end{tabular}
-\end{table}
+| m | nm | ,m |
+|---|----|----|
+|   |    |    |
+|   |    |    |
 
 ## **Bug reports**
 
