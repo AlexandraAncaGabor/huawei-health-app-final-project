@@ -108,5 +108,5 @@ The test metrics are shown in the table below:
 - Only a small part of the application was covered because this was the request. 
 - I think that the more you test, the more defects you discover or improvement ideas; 
 - It seems that this app has many more bugs; 
-- Working with Jira and Zephyr was a challenge because I didn't use them before but in the end it was quite easy. I  think I should explore them more in my future projects because It helped me in this one and I liked using them.  
+- Working with Jira and Zephyr was a challenge because I didn't use them before but in the end it was quite easy. I  think I should explore them more in my future projects because it helped me in this one and I liked using them.  
 
