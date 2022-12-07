@@ -15,7 +15,7 @@ The test cases were done using an Android mobile, v 11 (Samsung Galaxy A70) and 
 
 - 🔍 [TC-001](https://github.com/AlexandraAncaGabor/QA-Project-Huawei-Health/blob/feature/refactoring/test-cases/tc-001.md) - Check if the app shows sleep details when the "Huawei TruSleep" function is disabled
 - 🔍 [TC-002](https://github.com/AlexandraAncaGabor/QA-Project-Huawei-Health/blob/feature/refactoring/test-cases/tc-002.md) - Test if a user receives a notification when disabling and then activating a notification
-- 🔍 [TC-003](https://github.com/AlexandraAncaGabor/QA-Project-Huawei-Health/blob/feature/refactoring/test-cases/tc-003.md) - Check if the app is able to set up more than 5 alarms
+- 🔍 [TC-003](https://github.com/AlexandraAncaGabor/QA-Project-Huawei-Health/blob/feature/refactoring/test-cases/tc-003.md) - Check that the application does not allow more than 5 alarms to be set
 - 🔍 [TC-004](https://github.com/AlexandraAncaGabor/QA-Project-Huawei-Health/blob/feature/refactoring/test-cases/tc-004.md) - Check that a watch face can be installed
 - 🔍[TC-005](https://github.com/AlexandraAncaGabor/QA-Project-Huawei-Health/blob/feature/refactoring/test-cases/tc-005.md) - Check that the user can install multiple watch faces in the same time
 - 🔍[TC-006](https://github.com/AlexandraAncaGabor/QA-Project-Huawei-Health/blob/feature/refactoring/test-cases/tc-006.md) - Check that a watch face can be deleted
@@ -28,9 +28,9 @@ The test cases were done using an Android mobile, v 11 (Samsung Galaxy A70) and 
 - 🔍 [TC-013](https://github.com/AlexandraAncaGabor/QA-Project-Huawei-Health/blob/feature/refactoring/test-cases/tc-013.md) - Test if a user is able to delete his profile picture
 - 🔍 [TC-014](https://github.com/AlexandraAncaGabor/QA-Project-Huawei-Health/blob/feature/refactoring/test-cases/tc-014.md) - Check that the app displays an error message when setting up an age under 18
 - 🔍 [TC-015](https://github.com/AlexandraAncaGabor/QA-Project-Huawei-Health/blob/feature/refactoring/test-cases/tc-015.md) - Test if a user can set up a valid phone number in the "Personal info" area
-- 🔍 [TC-016](https://github.com/AlexandraAncaGabor/QA-Project-Huawei-Health/blob/feature/refactoring/test-cases/tc-016.md) - Test if a user can set up a invalid phone number in the "Personal info" area
-- 🔍 [TC-017](https://github.com/AlexandraAncaGabor/QA-Project-Huawei-Health/blob/feature/refactoring/test-cases/tc-017.md) - Test if a user can set up a invalid email address
-- 🔍 [TC-018](https://github.com/AlexandraAncaGabor/QA-Project-Huawei-Health/blob/feature/refactoring/test-cases/tc-018.md) Check that the app doesn't allow the user to set up a nickname using symbols
+- 🔍 [TC-016](https://github.com/AlexandraAncaGabor/QA-Project-Huawei-Health/blob/feature/refactoring/test-cases/tc-016.md) - Test if a user can set up an invalid phone number in the "Personal info" area
+- 🔍 [TC-017](https://github.com/AlexandraAncaGabor/QA-Project-Huawei-Health/blob/feature/refactoring/test-cases/tc-017.md) - Test if a user can set up an invalid email address
+- 🔍 [TC-018](https://github.com/AlexandraAncaGabor/QA-Project-Huawei-Health/blob/feature/refactoring/test-cases/tc-018.md) - Check that the app doesn't allow the user to set up a nickname using symbols
 - 🔍 [TC-019](https://github.com/AlexandraAncaGabor/QA-Project-Huawei-Health/blob/feature/refactoring/test-cases/tc-019.md) - Test if a user can set up a nickname with 1 character
 - 🔍 [TC-20](https://github.com/AlexandraAncaGabor/QA-Project-Huawei-Health/blob/feature/refactoring/test-cases/tc-020.md) - Check if a user is able to monitor his weekly steps
 - 🔍 [TC-21](https://github.com/AlexandraAncaGabor/QA-Project-Huawei-Health/blob/feature/refactoring/test-cases/tc-021.md) - Check if a user can see step report for the current week
@@ -94,9 +94,12 @@ The test metrics are shown in the table below:
 |   2 | TC created/ TC executed               | 34/34     | All TCs were executed according to the plan                                 |
 |   3 | TC failed                             | 5         | Small part of the modules contain most of the defects                       |
 |   4 | NonfunctionalTC /total TC             | 4/34      | Functional testing was prioritary, but nonfonfunctional TCs can be created. |
+|   5 | Positive TC /Negative TC              | 26/8      | In order to test the app and find defects I created negative testing as well |
 
-Nonfunctional testing used:
+### **Nonfunctional testing used:**
 
 - Security testing;
 - Installation/Uninstallation;
 - Internationalization testing,
+
+In orther to test the application and 
