@@ -54,13 +54,14 @@
 ## 8. ENVIRONMENTAL NEEDS
 
     We need the following test environment :
-    • Android operating systems - we need 4 physical phones and we can use tools for mobile testing (emulators)
+    • Android operating systems - we need 2 physical phones and we can use tools for mobile testing (emulators);
+    • 2 Huawei watches;
     • Security tool for mobile - TBD
 
 ## 9. TEAM
 
-    Testers: A,B,C
-    Developers: A,B
+    Testers: John, Mary, Ema
+    Developers: James, Kevin, Crystal, Lily and Elias
     At least one tester to be trained for security testing
 
 ## 10. SCHEDULE
