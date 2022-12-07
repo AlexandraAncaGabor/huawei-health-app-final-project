@@ -82,10 +82,10 @@ Testing task Start date End date Notes
 
 ## 11. RISKS AND MITIGATIONS
 
-Risk Probability Impact Mitigation
-Several team members get sick High Major Not possible
-Test tools and environment availability Medium Medium Use free app
-Availability of resources: mobile device, app Low Major Not possible
+- Risk Probability Impact Mitigation
+- Several team members get sick High Major Not possible
+- Test tools and environment availability Medium Medium Use free app
+- Availability of resources: mobile device, app Low Major Not possible
 
 ## 12. GLOSSARY
 
