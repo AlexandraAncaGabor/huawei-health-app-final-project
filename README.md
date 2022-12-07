@@ -94,7 +94,7 @@ The test metrics are shown in the table below:
 |   2 | TC created/ TC executed               | 34/34     | All TCs were executed according to the plan                                 |
 |   3 | TC failed                             | 5         | Small part of the modules contain most of the defects                       |
 |   4 | NonfunctionalTC /total TC             | 4/34      | Functional testing was prioritary, but nonfonfunctional TCs can be created. |
-|   5 | Positive TC /Negative TC              | 26/8      | In order to test the app and find defects I created negative testing as well |
+|   5 | Negative TC /total TC                 | 8/34      | In order to test the app and find defects I created negative tests as well  |
 
 ### **Nonfunctional testing used:**
 
@@ -102,4 +102,3 @@ The test metrics are shown in the table below:
 - Installation/Uninstallation;
 - Internationalization testing,
 
-In orther to test the application and 
