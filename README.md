@@ -1,8 +1,8 @@
 # **QA-Project-Huawei-Health App**
 
-My final project was testing the Huawei Health app which is a free Android companion application that syncs to a Huawei smartwatch to track various tasks.
+My final project was about testing the Huawei Health app which is a free Android companion application that syncs to a Huawei smartwatch to track various tasks.
 
-I chose to test this application because is one of the application that I use almost daily and I was curious to find what it offers and I wanted to see if there are any errors or bugs that I can find by myself. I am using this app because I wear a Huawei watch. 
+I chose to test this application because is one of the application that I use almost daily and I was curious to find what it offers and I wanted to see if there are any errors or bugs that I can find by myself. 
 
 ![Huawei-health-kv](https://user-images.githubusercontent.com/110250127/204929801-986c8fa1-bee6-4ae2-9a02-4ae61612ccb8.jpg)
 
