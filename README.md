@@ -2,16 +2,18 @@
 
 My final project was based on testing the Huawei Health app which is a free Android companion application that syncs to a Huawei smartwatch to track various tasks.
 
+I chose to test this application because is one of the application that I use almost daily and I was curious to find what it offers and I wanted to see if there are any errors or bugs that I can find by myself. I am using this app because I wear a Huawei watch. 
+
 ![Huawei-health-kv](https://user-images.githubusercontent.com/110250127/204929801-986c8fa1-bee6-4ae2-9a02-4ae61612ccb8.jpg)
 
 ## **Test plan**
 
-How the testing process was performed was described in the [test plan.](https://github.com/AlexandraAncaGabor/QA-Project-Huawei-Health/blob/feature/refactoring/test-plan.md)
+How the testing process was performed was described in the [test plan.](https://github.com/AlexandraAncaGabor/QA-Project-Huawei-Health/blob/feature/refactoring/test-plan.md). 
 
 ## **Test cases**
 
 I created 34 test cases covering different parts of the mobile application: Health, Device, Me.
-The test cases were done using an Android mobile, v 11 (Samsung Galaxy A70) and a huawei watch fit.
+The test cases were done using an Android mobile, v 11 (Samsung Galaxy A70) and a Huawei watch fit.
 
 - 🔍 [TC-001](https://github.com/AlexandraAncaGabor/QA-Project-Huawei-Health/blob/feature/refactoring/test-cases/tc-001.md) - Check if the app shows sleep details when the "Huawei TruSleep" function is disabled
 - 🔍 [TC-002](https://github.com/AlexandraAncaGabor/QA-Project-Huawei-Health/blob/feature/refactoring/test-cases/tc-002.md) - Test if a user receives a notification when disabling and then activating a notification
@@ -67,14 +69,14 @@ The test cases were done using an Android mobile, v 11 (Samsung Galaxy A70) and 
 
 3 Bugs were detected during the exploratory session and the test case execution generated 5 bugs.
 
-- 🐞 [Bug-001](https://github.com/AlexandraAncaGabor/QA-Project-Huawei-Health/blob/feature/refactoring/bugs/bug-001.md) - Multiple alarms set up at the same time (same hour and date)
-- 🐞 [Bug-002](https://github.com/AlexandraAncaGabor/QA-Project-Huawei-Health/blob/feature/refactoring/bugs/bug-002.md) - Security number cannot be set up using the pre-added number in the "Profile" area
-- 🐞 [Bug-003](https://github.com/AlexandraAncaGabor/QA-Project-Huawei-Health/blob/feature/refactoring/bugs/bug-003.md) - Heart button from watch faces doesn't work
-- 🐞 [Bug-004](https://github.com/AlexandraAncaGabor/QA-Project-Huawei-Health/blob/feature/refactoring/bugs/bug-004.md) - The app is displaying only the steps for the second device added. (Huawei GT2)
-- 🐞 [Bug-005](https://github.com/AlexandraAncaGabor/QA-Project-Huawei-Health/blob/feature/refactoring/bugs/bug-005.md) - The app still displays the steps from the first device after the second device is deleted
-- 🐞 [Bug-006](https://github.com/AlexandraAncaGabor/QA-Project-Huawei-Health/blob/feature/refactoring/bugs/bug-006.md) - All format pictures are supported to be set up by the app
-- 🐞 [Bug-007](https://github.com/AlexandraAncaGabor/QA-Project-Huawei-Health/blob/feature/refactoring/bugs/bug-007.md) - Profile picture cannot be deleted
-- 🐞 [Bug-008](https://github.com/AlexandraAncaGabor/QA-Project-Huawei-Health/blob/feature/refactoring/bugs/bug-008.md) - Climbing is not automatically detected by the app
+- 🐞 [Bug-001](https://github.com/AlexandraAncaGabor/QA-Project-Huawei-Health/blob/feature/refactoring/bugs/bug-001.md) - Multiple alarms set up at the same time; (same hour and date)
+- 🐞 [Bug-002](https://github.com/AlexandraAncaGabor/QA-Project-Huawei-Health/blob/feature/refactoring/bugs/bug-002.md) - Security number cannot be set up using the pre-added number in the "Profile" area;
+- 🐞 [Bug-003](https://github.com/AlexandraAncaGabor/QA-Project-Huawei-Health/blob/feature/refactoring/bugs/bug-003.md) - Heart button from watch faces doesn't work;
+- 🐞 [Bug-004](https://github.com/AlexandraAncaGabor/QA-Project-Huawei-Health/blob/feature/refactoring/bugs/bug-004.md) - The app is displaying only the steps for the second device added. (Huawei GT2);
+- 🐞 [Bug-005](https://github.com/AlexandraAncaGabor/QA-Project-Huawei-Health/blob/feature/refactoring/bugs/bug-005.md) - The app still displays the steps from the first device after the second device is deleted;
+- 🐞 [Bug-006](https://github.com/AlexandraAncaGabor/QA-Project-Huawei-Health/blob/feature/refactoring/bugs/bug-006.md) - All format pictures are supported to be set up by the app;
+- 🐞 [Bug-007](https://github.com/AlexandraAncaGabor/QA-Project-Huawei-Health/blob/feature/refactoring/bugs/bug-007.md) - Profile picture cannot be deleted;
+- 🐞 [Bug-008](https://github.com/AlexandraAncaGabor/QA-Project-Huawei-Health/blob/feature/refactoring/bugs/bug-008.md) - Climbing is not automatically detected by the app.
 
 ## **Tools used**
 
@@ -90,7 +92,7 @@ The test metrics are shown in the table below:
 
 |     | **Metrics**                           | **Notes** | **Conclusions**                                                             |
 | --: | ------------------------------------- | --------- | --------------------------------------------------------------------------- |
-|   1 | Defects found with TCS/ Total Defects | 5/8       | 3 defects were found in the exploratory session.                            |
+|   1 | Defects found with TCS/ Total Defects | 5/8       | 3 defects were found in the exploratory session when executing the test cases |
 |   2 | TC created/ TC executed               | 34/34     | All TCs were executed according to the plan                                 |
 |   3 | TC failed                             | 5         | Small part of the modules contain most of the defects                       |
 |   4 | NonfunctionalTC /total TC             | 4/34      | Functional testing was prioritary, but nonfonfunctional TCs can be created. |
@@ -100,5 +102,11 @@ The test metrics are shown in the table below:
 
 - Security testing;
 - Installation/Uninstallation;
-- Internationalization testing,
+- Internationalization testing
+
+## **Conclusions:**
+- Only a small part of the application was covered because this was the request. 
+- I think that the more you test, the more defects you discover or improvement ideas; 
+- It seems that this app has many more bugs; 
+- Working with Jira and Zephyr was a challenge because I didn't use them before but in the end it was quite easy. I  think I should explore them more in my future projects because It helped me in this one and I liked using them.  
 
