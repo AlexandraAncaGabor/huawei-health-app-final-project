@@ -1,19 +1,21 @@
 # **QA-Project-Huawei-Health App**
 
-My final project was about testing the Huawei Health app which is a free Android companion application that syncs to a Huawei smartwatch to track various tasks.
 
-I chose to test this application because is one of the application that I use almost daily and I was curious to find what it offers and I wanted to see if there are any errors or bugs that I can find by myself. 
+The culmination of my coursework involved a thorough examination of the Huawei Health app—an Android companion application that seamlessly connects with Huawei smartwatches to monitor a range of activities.
+
+I selected this application for testing because it's a tool I rely on daily. My motivation stemmed from a personal curiosity to thoroughly explore its functionalities and, in the process, discover any errors or bugs that may have eluded notice.
 
 ![Huawei-health-kv](https://user-images.githubusercontent.com/110250127/204929801-986c8fa1-bee6-4ae2-9a02-4ae61612ccb8.jpg)
 
 ## **Test plan**
 
-How the testing process was performed was described in the [test plan.](https://github.com/AlexandraAncaGabor/QA-Project-Huawei-Health/blob/feature/refactoring/test-plan.md). 
+
+The description of how the testing process was conducted is outlined in the project documentation: [test plan.](https://github.com/AlexandraAncaGabor/QA-Project-Huawei-Health/blob/feature/refactoring/test-plan.md). 
 
 ## **Test cases**
 
-I created 34 test cases covering different parts of the mobile application: Health, Device, Me.
-The test cases were done using an Android mobile, v 11 (Samsung Galaxy A70) and a Huawei watch fit.
+
+I formulated a comprehensive set of 34 test cases, encompassing various segments of the mobile application: Health, Device, and Me. These test cases were executed using an Android mobile device running version 11 (Samsung Galaxy A70) in conjunction with a Huawei Watch Fit.
 
 - 🔍 [TC-001](https://github.com/AlexandraAncaGabor/QA-Project-Huawei-Health/blob/feature/refactoring/test-cases/tc-001.md) - Check if the app shows sleep details when the "Huawei TruSleep" function is disabled
 - 🔍 [TC-002](https://github.com/AlexandraAncaGabor/QA-Project-Huawei-Health/blob/feature/refactoring/test-cases/tc-002.md) - Test if a user receives a notification when disabling and then activating a notification
@@ -67,7 +69,8 @@ The test cases were done using an Android mobile, v 11 (Samsung Galaxy A70) and 
 
 ## **Bug reports**
 
-3 Bugs were detected during the exploratory session and the test case execution generated 5 bugs.
+
+During the exploratory testing phase, three bugs were identified, and an additional five bugs were uncovered through the systematic execution of test cases.
 
 - 🐞 [Bug-001](https://github.com/AlexandraAncaGabor/QA-Project-Huawei-Health/blob/feature/refactoring/bugs/bug-001.md) - Multiple alarms set up at the same time; (same hour and date)
 - 🐞 [Bug-002](https://github.com/AlexandraAncaGabor/QA-Project-Huawei-Health/blob/feature/refactoring/bugs/bug-002.md) - Security number cannot be set up using the pre-added number in the "Profile" area;
@@ -92,11 +95,11 @@ The test metrics are shown in the table below:
 
 |     | **Metrics**                           | **Notes** | **Conclusions**                                                             |
 | --: | ------------------------------------- | --------- | --------------------------------------------------------------------------- |
-|   1 | Defects found with TCS/ Total Defects | 5/8       | 3 defects were found in the exploratory session when executing the test cases |
+|   1 | Defects found with TCS/ Total Defects | 5/8       | During the exploratory testing session and the execution of test cases, a total of three defects were identified. |
 |   2 | TC created/ TC executed               | 34/34     | All TCs were executed according to the plan                                 |
 |   3 | TC failed                             | 5         | Small part of the modules contain most of the defects                       |
-|   4 | NonfunctionalTC /total TC             | 4/34      | Functional testing was prioritary, but nonfonfunctional TCs can be created. |
-|   5 | Negative TC /total TC                 | 8/34      | In order to find defects I created negative tests as well.                  |
+|   4 | NonfunctionalTC /total TC             | 4/34      | The primary focus was on functional testing; however, the creation of non-functional test cases can be additionaly created|
+|   5 | Negative TC /total TC                 | 8/34      | To identify defects, I integrated negative tests into the testing process   |
 
 ### **Nonfunctional testing used:**
 
@@ -105,8 +108,11 @@ The test metrics are shown in the table below:
 - Internationalization testing
 
 ## **Conclusions:**
-- Only a small part of the application was covered because this was the request. 
-- I think that the more you test, the more defects you discover or improvement ideas; 
-- It seems that this app has many more bugs; 
-- Working with Jira and Zephyr was a challenge because I didn't use them before but in the end it was quite easy. I  think I should explore them more in my future projects because it helped me in this one and I liked using them.  
+- The scope of the testing was intentionally limited to a small section of the application, as per the specified request;
+  
+- In my experience, the more extensive the testing, the greater the likelihood of uncovering defects or generating improvement ideas;
+  
+- It appears that the application may have more undiscovered bugs based on the issues encountered during the testing process;
+  
+- Using Jira and Zephyr presented an initial challenge, given my lack of prior experience with these tools. However, as I became more familiar with them, the process proved to be relatively straightforward. Moving forward, I am inclined to explore these tools further in my upcoming projects, as they not only facilitated this project but also resonated positively with my workflow.
 
