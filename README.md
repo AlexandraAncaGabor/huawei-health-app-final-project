@@ -1,7 +1,7 @@
 # **QA-Project-Huawei-Health App**
 
 
-The culmination of my coursework involved a thorough examination of the Huawei Health app—an Android companion application that seamlessly connects with Huawei smartwatches to monitor a range of activities.
+For my final project, I thoroughly examined the Huawei Health Android app, which integrates with Huawei smartwatches to monitor diverse activities.
 
 I selected this application for testing because it's a tool I rely on daily. My motivation stemmed from a personal curiosity to thoroughly explore its functionalities and, in the process, discover any errors or bugs that may have eluded notice.
 
@@ -116,3 +116,4 @@ The test metrics are shown in the table below:
   
 - Using Jira and Zephyr presented an initial challenge, given my lack of prior experience with these tools. However, as I became more familiar with them, the process proved to be relatively straightforward. Moving forward, I am inclined to explore these tools further in my upcoming projects, as they not only facilitated this project but also resonated positively with my workflow.
 
+_✨ Guided by curiosity, committed to quality._
