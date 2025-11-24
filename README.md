@@ -10,7 +10,7 @@ I selected this application for testing because it's a tool I rely on daily. My 
 ## **Test plan**
 
 
-The description of how the testing process was conducted is outlined in the project documentation: [test plan.](https://github.com/AlexandraAncaGabor/QA-Project-Huawei-Health/blob/feature/refactoring/test-plan.md). 
+The description of how the testing process was conducted is outlined in the project documentation: [test plan.](https://github.com/AlexandraAncaGabor/QA-Project-Huawei-Health/blob/feature/refactoring/test-plan.md)  
 
 ## **Test cases**
 
@@ -115,6 +115,9 @@ The test metrics are shown in the table below:
   
 - Using Jira and Zephyr presented an initial challenge, given my lack of prior experience with these tools. However, as I became more familiar with them, the process proved to be relatively straightforward. Moving forward, I am inclined to explore these tools further in my upcoming projects, as they not only facilitated this project but also resonated positively with my workflow.
 
-**Note: Testing was performed in 2023, and no regression tests have been conducted since. The application has undergone changes, so these tests may only be valid for the version at that time.*
+**Note:
+- The tests were originally created at the beginning of my QA experience (2023), and some were not written in the most precise format. Therefore, I decided to review and rewrite the test cases.
+
+- No regression tests have been performed since, and the application has undergone changes, so these tests may only apply to the version available at that time.*
 
 _✨ Guided by curiosity, committed to quality._
