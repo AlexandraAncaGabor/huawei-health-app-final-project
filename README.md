@@ -57,8 +57,8 @@ I formulated a comprehensive set of 34 test cases, encompassing various segments
 |------------------|---------------------------|----------------|---------------------------|----------------|---------------------------|----------------|---------------------------|
 | tc-001           | :heavy_check_mark:   Pass | tc-011         | :x:   Fail                | tc-021         | :heavy_check_mark:   Pass | tc-031         | :heavy_check_mark:   Pass |
 | tc-002           | :heavy_check_mark:   Pass | tc-012         | :x:   Fail                | tc-022         | :x: Fail  | tc-032         | :heavy_check_mark:   Pass |
-| tc-003           | :heavy_check_mark:   Pass | tc-013         | :x:   Fail                | tc-023         | :heavy_check_mark:   Pass | 
-| tc-004           | :heavy_check_mark:   Pass | tc-014         | :heavy_check_mark:   Pass | tc-024         | :x:   Fail                | 
+| tc-003           | :x: Fail   | tc-013         | :x:   Fail                | tc-023         | :heavy_check_mark:   Pass | 
+| tc-004           | :heavy_check_mark:   Pass | tc-014         | :heavy_check_mark:   Pass | tc-024         | :heavy_check_mark: Pass               | 
 | tc-005           | :heavy_check_mark:   Pass | tc-015         | :heavy_check_mark:   Pass | tc-025         | :heavy_check_mark:   Pass |                |                           |
 | tc-006           | :heavy_check_mark:   Pass | tc-016         | :heavy_check_mark:   Pass | tc-026         | :heavy_check_mark:   Pass |                |                           |
 | tc-007           | :heavy_check_mark:   Pass | tc-017         | :heavy_check_mark:   Pass | tc-027         | :heavy_check_mark:   Pass |                |                           |
