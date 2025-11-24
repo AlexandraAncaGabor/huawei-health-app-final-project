@@ -94,7 +94,7 @@ The test metrics are shown in the table below:
 
 |     | **Metrics**                           | **Notes** | **Conclusions**                                                             |
 | --: | ------------------------------------- | --------- | --------------------------------------------------------------------------- |
-|   1 | Defects found with TCS/ Total Defects | 5/8       | During the exploratory testing session and the execution of test cases, a total of three defects were identified. |
+|   1 | Defects found with TCS/ Total Defects | 6/8       | During the exploratory testing session and the execution of test cases, a total of two defects were identified. |
 |   2 | TC created/ TC executed               | 32/32     | All TCs were executed according to the plan                                 |
 |   3 | TC failed                             | 5         | Small part of the modules contain most of the defects                       |
 |   4 | NonfunctionalTC /total TC             | 4/32      | The primary focus was on functional testing; however, the creation of non-functional test cases can be additionaly created|
