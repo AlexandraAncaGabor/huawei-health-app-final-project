@@ -56,9 +56,9 @@ I formulated a comprehensive set of 34 test cases, encompassing various segments
 | **Test   cases** | **Test results**          | **Test cases** | **Test results**          | **Test cases** | **Test results**          | **Test cases** | **Test results**          |
 |------------------|---------------------------|----------------|---------------------------|----------------|---------------------------|----------------|---------------------------|
 | tc-001           | :heavy_check_mark:   Pass | tc-011         | :x:   Fail                | tc-021         | :heavy_check_mark:   Pass | tc-031         | :heavy_check_mark:   Pass |
-| tc-002           | :heavy_check_mark:   Pass | tc-012         | :x:   Fail                | tc-022         | :heavy_check_mark:   Pass | tc-032         | :heavy_check_mark:   Pass |
-| tc-003           | :heavy_check_mark:   Pass | tc-013         | :x:   Fail                | tc-023         | :heavy_check_mark:   Pass | tc-033         | :heavy_check_mark:   Pass |
-| tc-004           | :heavy_check_mark:   Pass | tc-014         | :heavy_check_mark:   Pass | tc-024         | :x:   Fail                | tc-034         | :heavy_check_mark:   Pass |
+| tc-002           | :heavy_check_mark:   Pass | tc-012         | :x:   Fail                | tc-022         | :x: Fail  | tc-032         | :heavy_check_mark:   Pass |
+| tc-003           | :heavy_check_mark:   Pass | tc-013         | :x:   Fail                | tc-023         | :heavy_check_mark:   Pass | 
+| tc-004           | :heavy_check_mark:   Pass | tc-014         | :heavy_check_mark:   Pass | tc-024         | :x:   Fail                | 
 | tc-005           | :heavy_check_mark:   Pass | tc-015         | :heavy_check_mark:   Pass | tc-025         | :heavy_check_mark:   Pass |                |                           |
 | tc-006           | :heavy_check_mark:   Pass | tc-016         | :heavy_check_mark:   Pass | tc-026         | :heavy_check_mark:   Pass |                |                           |
 | tc-007           | :heavy_check_mark:   Pass | tc-017         | :heavy_check_mark:   Pass | tc-027         | :heavy_check_mark:   Pass |                |                           |
@@ -95,10 +95,10 @@ The test metrics are shown in the table below:
 |     | **Metrics**                           | **Notes** | **Conclusions**                                                             |
 | --: | ------------------------------------- | --------- | --------------------------------------------------------------------------- |
 |   1 | Defects found with TCS/ Total Defects | 5/8       | During the exploratory testing session and the execution of test cases, a total of three defects were identified. |
-|   2 | TC created/ TC executed               | 34/34     | All TCs were executed according to the plan                                 |
+|   2 | TC created/ TC executed               | 32/32     | All TCs were executed according to the plan                                 |
 |   3 | TC failed                             | 5         | Small part of the modules contain most of the defects                       |
-|   4 | NonfunctionalTC /total TC             | 4/34      | The primary focus was on functional testing; however, the creation of non-functional test cases can be additionaly created|
-|   5 | Negative TC /total TC                 | 8/34      | To identify defects, I integrated negative tests into the testing process   |
+|   4 | NonfunctionalTC /total TC             | 4/32      | The primary focus was on functional testing; however, the creation of non-functional test cases can be additionaly created|
+|   5 | Negative TC /total TC                 | 8/32      | To identify defects, I integrated negative tests into the testing process   |
 
 ### **Nonfunctional testing used:**
 
@@ -114,5 +114,7 @@ The test metrics are shown in the table below:
 - It appears that the application may have more undiscovered bugs based on the issues encountered during the testing process;
   
 - Using Jira and Zephyr presented an initial challenge, given my lack of prior experience with these tools. However, as I became more familiar with them, the process proved to be relatively straightforward. Moving forward, I am inclined to explore these tools further in my upcoming projects, as they not only facilitated this project but also resonated positively with my workflow.
+
+**Note: Testing was performed in 2023, and no regression tests have been conducted since. The application has undergone changes, so these tests may only be valid for the version at that time.*
 
 _✨ Guided by curiosity, committed to quality._
