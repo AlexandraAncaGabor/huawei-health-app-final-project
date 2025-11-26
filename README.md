@@ -1,9 +1,9 @@
 # **QA-Project-Huawei-Health App**
 
 
-For my final project, I thoroughly examined the Huawei Health Android app, which integrates with Huawei smartwatches to monitor diverse activities.
+For my final project, I conducted a thorough examination of the Huawei Health Android app, which syncs with Huawei smartwatches to track various activities.
 
-I selected this application for testing because it's a tool I rely on daily. My motivation stemmed from a personal curiosity to thoroughly explore its functionalities and, in the process, discover any errors or bugs that may have eluded notice.
+I chose this app because I use it daily and wanted to explore its features in depth, identifying any errors or bugs that might have gone unnoticed.
 
 ![Huawei-health-kv](https://user-images.githubusercontent.com/110250127/204929801-986c8fa1-bee6-4ae2-9a02-4ae61612ccb8.jpg)
 
@@ -15,7 +15,7 @@ The description of how the testing process was conducted is outlined in the proj
 ## **Test cases**
 
 
-I formulated a comprehensive set of 34 test cases, encompassing various segments of the mobile application: Health, Device, and Me. These test cases were executed using an Android mobile device running version 11 (Samsung Galaxy A70) in conjunction with a Huawei Watch Fit.
+I created a comprehensive set of 32 test cases covering key areas of the mobile application: Health, Device, and Me. The tests were executed on an Android device (Samsung Galaxy A70, version 11) paired with a Huawei Watch Fit.
 
 - 🔍 [TC-001](https://github.com/AlexandraAncaGabor/QA-Project-Huawei-Health/blob/feature/refactoring/test-cases/tc-001.md) - Verify sleep details display when "Huawei TruSleep" is disabled
 - 🔍 [TC-002](https://github.com/AlexandraAncaGabor/QA-Project-Huawei-Health/blob/feature/refactoring/test-cases/tc-002.md) - Verify user receives a notification when toggling notifications off and on
@@ -69,7 +69,7 @@ I formulated a comprehensive set of 34 test cases, encompassing various segments
 ## **Bug reports**
 
 
-During the exploratory testing phase, three bugs were identified, and an additional five bugs were uncovered through the systematic execution of test cases.
+During the exploratory testing phase, two bugs were identified, and an additional six bugs were uncovered through the systematic execution of test cases.
 
 - 🐞 [Bug-001](https://github.com/AlexandraAncaGabor/QA-Project-Huawei-Health/blob/feature/refactoring/bugs/bug-001.md) - Multiple alarms set up at the same time; (same hour and date)
 - 🐞 [Bug-002](https://github.com/AlexandraAncaGabor/QA-Project-Huawei-Health/blob/feature/refactoring/bugs/bug-002.md) - Security number cannot be set up using the pre-added number in the "Profile" area;
@@ -107,13 +107,13 @@ The test metrics are shown in the table below:
 - Internationalization testing
 
 ## **Conclusions:**
-- The scope of the testing was intentionally limited to a small section of the application, as per the specified request;
-  
-- In my experience, the more extensive the testing, the greater the likelihood of uncovering defects or generating improvement ideas;
-  
-- It appears that the application may have more undiscovered bugs based on the issues encountered during the testing process;
-  
-- Using Jira and Zephyr presented an initial challenge, given my lack of prior experience with these tools. However, as I became more familiar with them, the process proved to be relatively straightforward. Moving forward, I am inclined to explore these tools further in my upcoming projects, as they not only facilitated this project but also resonated positively with my workflow.
+- The testing scope was intentionally limited to a specific section of the application, as requested.
+
+ - In my experience, the more extensive the testing, the greater the likelihood of uncovering defects or generating improvement ideas; Based on the issues encountered, it seems likely that additional bugs may still exist in the application.
+ 
+ - Using Jira and Zephyr was initially challenging due to my lack of prior experience. However, once I became familiar with them, the process proved straightforward. 
+ 
+ - I plan to continue exploring these tools in future projects, as they not only supported this project effectively but also fit well with my workflow.
 
 **Note:*
 *- The tests were originally created at the beginning of my QA experience (2022), and some were not written in the most precise format. Therefore, I decided to review and rewrite the test cases.*
