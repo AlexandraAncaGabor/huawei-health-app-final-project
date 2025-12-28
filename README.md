@@ -135,10 +135,10 @@ The test metrics are shown in the table below:
 
 Key learnings from this project:
 
-✔ ⁠ ⁠Better understanding of mobile-specific testing risks; 
-✔ ⁠  ⁠Enhanced exploratory testing techniques; 
-✔  ⁠Clearer structuring of test cases and bug reports; 
-✔  ⁠Prioritization of features based on user impact
+- ⁠ ⁠Better understanding of mobile-specific testing risks; 
+- ⁠ ⁠Enhanced exploratory testing techniques; 
+-  ⁠Clearer structuring of test cases and bug reports; 
+-  ⁠Prioritization of features based on user impact
 
 
 **Note:*
