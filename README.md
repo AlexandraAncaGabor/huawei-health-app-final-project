@@ -1,21 +1,56 @@
-# **QA-Project-Huawei-Health App**
+## Huawei Health App - Final Project
 
 
-For my final project, I conducted a thorough examination of the Huawei Health Android app, which syncs with Huawei smartwatches to track various activities.
+## 📌 Project Context**
 
-I chose this app because I use it daily and wanted to explore its features in depth, identifying any errors or bugs that might have gone unnoticed.
+
+This project demonstrates a real-world inspired QA process for a mobile health tracking application (Huawei Health). It includes structured manual testing, exploratory testing,  and detailed defect reporting.
+
+This project is based on the version of Huawei Health available at the time of testing and focuses on key functionalities such as activity tracking, heart rate monitoring, and device integration.
+
 
 ![Huawei-health-kv](https://user-images.githubusercontent.com/110250127/204929801-986c8fa1-bee6-4ae2-9a02-4ae61612ccb8.jpg)
 
-## **Test plan**
+## 🧰 Tools & Technologies
 
+- Testing Tools: Jira, Zephyr for Jira (for test case management); 
+- Environment: Android app (Samsung Galaxy A70, Android 11), Huawei smartwatch (Huawei Watch Fit); 
+- Version Control: GitHub
+
+## Types of Testing Included
+•⁠  ⁠*Manual Testing*
+•⁠  ⁠*Exploratory Testing*
+•⁠  ⁠*Positive & Negative Test Scenarios*
+•  *Security testing*
+•  *Installation/Uninstallation*
+•  *Internationalization testing*
+
+## 🧠 Testing Approach
+
+Testing was planned and executed based on risk assessment and user impact. Core user journeys were prioritized, then edge cases and negative scenarios were added.
+
+## 🤔 Why These Tests Were Chosen
+
+Test scenarios were selected by analyzing:
+•⁠  ⁠User value of features
+•⁠  ⁠Likelihood of failure
+
+## 📋 Test Coverage Overview
+
+## Key Features Tested
+✔ User onboarding  
+✔ Activity tracking (walking, steps, climbing)  
+✔ Data synchronization with device sensors  
+✔ Error and edge case handling
+
+
+## Test plan
 
 The description of how the testing process was conducted is outlined in the project documentation: [test plan.](https://github.com/AlexandraAncaGabor/QA-Project-Huawei-Health/blob/feature/refactoring/test-plan.md)  
 
-## **Test cases**
+## Test cases
 
-
-I created a comprehensive set of 32 test cases covering key areas of the mobile application: Health, Device, and Me. The tests were executed on an Android device (Samsung Galaxy A70, version 11) paired with a Huawei Watch Fit.
+The test cases cover major functionalities of the Huawei Health app:
 
 - 🔍 [TC-001](https://github.com/AlexandraAncaGabor/QA-Project-Huawei-Health/blob/feature/refactoring/test-cases/tc-001.md) - Verify sleep details display when "Huawei TruSleep" is disabled
 - 🔍 [TC-002](https://github.com/AlexandraAncaGabor/QA-Project-Huawei-Health/blob/feature/refactoring/test-cases/tc-002.md) - Verify user receives a notification when toggling notifications off and on
@@ -51,7 +86,7 @@ I created a comprehensive set of 32 test cases covering key areas of the mobile 
 - 🔍 [TC-031](https://github.com/AlexandraAncaGabor/QA-Project-Huawei-Health/blob/feature/refactoring/test-cases/tc-033.md) - Ensure Huawei app uninstallation works
 - 🔍 [TC-032](https://github.com/AlexandraAncaGabor/QA-Project-Huawei-Health/blob/feature/refactoring/test-cases/tc-034.md) - Internationalization testing
 
-## **Test execution**
+## Test execution
 
 | **Test   cases** | **Test results**          | **Test cases** | **Test results**          | **Test cases** | **Test results**          | **Test cases** | **Test results**          |
 |------------------|---------------------------|----------------|---------------------------|----------------|---------------------------|----------------|---------------------------|
@@ -66,7 +101,7 @@ I created a comprehensive set of 32 test cases covering key areas of the mobile 
 | tc-009           | :x: Fail                  | tc-019         | :heavy_check_mark:   Pass | tc-029         | :heavy_check_mark:   Pass |                |                           |
 | tc-010           | :heavy_check_mark:   Pass | tc-020         | :heavy_check_mark:   Pass | tc-030         | :heavy_check_mark:   Pass |                |                           |
 
-## **Bug reports**
+## Bug reports
 
 
 During the exploratory testing phase, two bugs were identified, and an additional six bugs were uncovered through the systematic execution of test cases.
@@ -75,20 +110,12 @@ During the exploratory testing phase, two bugs were identified, and an additiona
 - 🐞 [Bug-002](https://github.com/AlexandraAncaGabor/QA-Project-Huawei-Health/blob/feature/refactoring/bugs/bug-002.md) - Security number cannot be set up using the pre-added number in the "Profile" area;
 - 🐞 [Bug-003](https://github.com/AlexandraAncaGabor/QA-Project-Huawei-Health/blob/feature/refactoring/bugs/bug-003.md) - Heart button from watch faces doesn't work;
 - 🐞 [Bug-004](https://github.com/AlexandraAncaGabor/QA-Project-Huawei-Health/blob/feature/refactoring/bugs/bug-004.md) - The app is displaying only the steps for the second device added. (Huawei GT2);
-- 🐞 [Bug-005](https://github.com/AlexandraAncaGabor/QA-Project-Huawei-Health/blob/feature/refactoring/bugs/bug-005.md) - The app still displays the steps from the first device after the second device is deleted;
-- 🐞 [Bug-006](https://github.com/AlexandraAncaGabor/QA-Project-Huawei-Health/blob/feature/refactoring/bugs/bug-006.md) - All format pictures are supported to be set up by the app;
+- 🐞 [Bug-005](https://github.com/AlexandraAncaGabor/QA-Project-Huawei-Health/blob/feature/refactoring/bugs/bug-005.md) - Steps from the deleted device are displayed after removing the device from the app; 
+- 🐞 [Bug-006](https://github.com/AlexandraAncaGabor/QA-Project-Huawei-Health/blob/feature/refactoring/bugs/bug-006.md) - All format pictures are supported to be set up by the app; 
 - 🐞 [Bug-007](https://github.com/AlexandraAncaGabor/QA-Project-Huawei-Health/blob/feature/refactoring/bugs/bug-007.md) - Profile picture cannot be deleted;
 - 🐞 [Bug-008](https://github.com/AlexandraAncaGabor/QA-Project-Huawei-Health/blob/feature/refactoring/bugs/bug-008.md) - Climbing is not automatically detected by the app.
 
-## **Tools used**
-
-|     | \*\*               | **Tools used**                                                                                                                     |
-| --: | ------------------ | ---------------------------------------------------------------------------------------------------------------------------------- |
-|   1 | Project Management | [Jira](https://jira.atlassian.com/)                                                                                                |
-|   2 | Test case creation | [Zephyr for Jira](https://marketplace.atlassian.com/apps/1213259/zephyr-scale-test-management-for-jira?tab=overview&hosting=cloud) |
-|   3 | Bug tracking       | [Jira](https://jira.atlassian.com/)                                                                                                |
-
-## **Test metrics**
+## Test metrics
 
 The test metrics are shown in the table below:
 
@@ -100,20 +127,16 @@ The test metrics are shown in the table below:
 |   4 | NonfunctionalTC /total TC             | 4/32      | The primary focus was on functional testing; however, the creation of non-functional test cases can be additionaly created|
 |   5 | Negative TC /total TC                 | 8/32      | To identify defects, I integrated negative tests into the testing process   |
 
-### **Nonfunctional testing used:**
 
-- Security testing;
-- Installation/Uninstallation;
-- Internationalization testing
 
-## **Conclusions:**
-- The testing scope was intentionally limited to a specific section of the application, as requested.
+## 📈 Learnings
 
- - In my experience, the more extensive the testing, the greater the likelihood of uncovering defects or generating improvement ideas; Based on the issues encountered, it seems likely that additional bugs may still exist in the application.
- 
- - Using Jira and Zephyr was initially challenging due to my lack of prior experience. However, once I became familiar with them, the process proved straightforward. 
- 
- - I plan to continue exploring these tools in future projects, as they not only supported this project effectively but also fit well with my workflow.
+Key learnings from this project:
+•⁠  ⁠Better understanding of mobile-specific testing risks
+•⁠  ⁠Enhanced exploratory testing techniques
+•⁠  ⁠Clearer structuring of test cases and bug reports
+•⁠  ⁠Prioritization of features based on user impact
+
 
 **Note:*
 *- The tests were originally created at the beginning of my QA experience (2022), and some were not written in the most precise format. Therefore, I decided to review and rewrite the test cases.*
