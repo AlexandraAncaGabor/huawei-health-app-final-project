@@ -1,7 +1,7 @@
 ## Huawei Health App - Final Project
 
 
-## 📌 Project Context**
+## 📌 Project Context
 
 
 This project demonstrates a real-world inspired QA process for a mobile health tracking application (Huawei Health). It includes structured manual testing, exploratory testing,  and detailed defect reporting.
@@ -18,12 +18,17 @@ This project is based on the version of Huawei Health available at the time of t
 - Version Control: GitHub
 
 ## Types of Testing Included
-•⁠  ⁠*Manual Testing*
-•⁠  ⁠*Exploratory Testing*
-•⁠  ⁠*Positive & Negative Test Scenarios*
-•  *Security testing*
-•  *Installation/Uninstallation*
-•  *Internationalization testing*
+•⁠  ⁠Manual Testing;
+
+•⁠  ⁠Exploratory Testing;
+
+•⁠  ⁠Positive & Negative Test Scenarios;
+
+•  Security testing;
+
+•  Installation/Uninstallation;
+
+•  Internationalization testing;
 
 ## 🧠 Testing Approach
 
@@ -132,9 +137,13 @@ The test metrics are shown in the table below:
 ## 📈 Learnings
 
 Key learnings from this project:
-•⁠  ⁠Better understanding of mobile-specific testing risks
-•⁠  ⁠Enhanced exploratory testing techniques
-•⁠  ⁠Clearer structuring of test cases and bug reports
+
+•⁠  ⁠Better understanding of mobile-specific testing risks; 
+
+•⁠  ⁠Enhanced exploratory testing techniques; 
+
+•⁠  ⁠Clearer structuring of test cases and bug reports; 
+
 •⁠  ⁠Prioritization of features based on user impact
 
 
