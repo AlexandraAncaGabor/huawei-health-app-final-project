@@ -17,18 +17,14 @@ This project is based on the version of Huawei Health available at the time of t
 - Environment: Android app (Samsung Galaxy A70, Android 11), Huawei smartwatch (Huawei Watch Fit); 
 - Version Control: GitHub
 
-## Types of Testing Included
-•⁠  ⁠Manual Testing;
+## 🧪 Types of Testing Included
 
-•⁠  ⁠Exploratory Testing;
-
-•⁠  ⁠Positive & Negative Test Scenarios;
-
-•  Security testing;
-
-•  Installation/Uninstallation;
-
-•  Internationalization testing;
+- 📝 *⁠Manual Testing* - Tests performed manually to verify core functionalities. ;
+- 🔍 *⁠⁠Exploratory Testing* - Ad-hoc testing to discover unexpected issues;
+- ✅ *⁠Positive & Negative Test Scenarios* - Verifies expected behavior for both valid and invalid inputs;
+- 🔒 *Security testing* - Checks app security and data protection;
+- 📲 *Installation/Uninstallation* -Ensures proper app setup and removal;
+- 🌐 *Internationalization testing* -Verifies app behavior across different locales and languages. 
 
 ## 🧠 Testing Approach
 
@@ -37,8 +33,9 @@ Testing was planned and executed based on risk assessment and user impact. Core 
 ## 🤔 Why These Tests Were Chosen
 
 Test scenarios were selected by analyzing:
-•⁠  ⁠User value of features
-•⁠  ⁠Likelihood of failure
+
+- ⁠User value of features; 
+- ⁠Likelihood of failure
 
 ## 📋 Test Coverage Overview
 
@@ -138,13 +135,10 @@ The test metrics are shown in the table below:
 
 Key learnings from this project:
 
-•⁠  ⁠Better understanding of mobile-specific testing risks; 
-
-•⁠  ⁠Enhanced exploratory testing techniques; 
-
-•⁠  ⁠Clearer structuring of test cases and bug reports; 
-
-•⁠  ⁠Prioritization of features based on user impact
+✔ ⁠ ⁠Better understanding of mobile-specific testing risks; 
+✔ ⁠  ⁠Enhanced exploratory testing techniques; 
+✔  ⁠Clearer structuring of test cases and bug reports; 
+✔  ⁠Prioritization of features based on user impact
 
 
 **Note:*
